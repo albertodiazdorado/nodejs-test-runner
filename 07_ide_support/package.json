@@ -1,0 +1,12 @@
+{
+  "name": "ide-support",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node --test --require @swc-node/register \"./test/**/*.ts\""
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.9.2",
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2"
+  }
+}

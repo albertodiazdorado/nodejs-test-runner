@@ -1,0 +1,17 @@
+{
+  "name": "08_test_reporters",
+  "version": "1.0.0",
+  "scripts": {
+    "test:jest": "jest test/**/*spec.ts",
+    "test:node-module": "node --test --require @swc-node/register \"./test/modules/addition-module.test.ts\"",
+    "test:node-calculator": "node --test --require @swc-node/register \"./test/classes/Calculator.test.ts\""
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@swc-node/register": "^1.9.2",
+    "@types/node": "^20.14.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.5",
+    "typescript": "^5.5.2"
+  }
+}

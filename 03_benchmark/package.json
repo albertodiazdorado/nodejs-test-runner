@@ -1,0 +1,14 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "jest": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest math-utils.jest.test.js",
+    "vitest": "vitest run math-utils.vitest.test.js",
+    "node": "node --test math-utils.node.test.js"
+  },
+  "dependencies": {
+    "jest": "^29.7.0",
+    "vitest": "^1.6.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+	"jsc": {
+		"parser": {
+			"syntax": "typescript",
+			"tsx": false
+		},
+		"target": "esnext"
+	},
+	"module": {
+		"type": "nodenext"
+	},
+	"sourceMaps": true,
+	"exclude": ["node_modules"]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "test-discovery",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test:js": "node --test",
+    "test:js-custom": "node --test \"**/*.test.js\" \"**/*.spec.js\"",
+    "test:ts": "node --test --import @swc-node/register/esm-register",
+    "test:ts-custom": "node --test --import @swc-node/register/esm-register \"**/*.test.ts\" \"**/*.spec.ts\"",
+    "test:ts-glob": "globstar -- node --test --import @swc-node/register/esm-register \"**/*.test.ts\" \"**/*.spec.ts\""
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.9.2",
+    "@types/node": "^20.14.9",
+    "globstar": "^1.0.0",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2",
+    "typescript": "^5.5.2"
+  }
+}
