@@ -1,0 +1,21 @@
+{
+    "nodejs-testing.nodejsPath": "/home/alberto/.nvm/versions/node/v22.2.0/bin/node",
+    "nodejs-testing.extensions": [
+      {
+        "extensions": [
+          "mjs",
+          "cjs",
+          "js"
+        ],
+        "parameters": []
+      },
+      {
+        "extensions": [
+          "ts"
+        ],
+        "parameters": [
+          "--enable-source-maps", "-r", "@swc-node/register"
+        ]
+      }
+    ],
+  }
